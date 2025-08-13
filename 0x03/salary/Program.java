@@ -41,3 +41,4 @@ public class Program {
                 documentationManager.calculateTotalSalary(documentationDepartment),
                 documentationManager.calculateBonus(documentationDepartment));
     }
+}
