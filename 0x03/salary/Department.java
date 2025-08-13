@@ -2,7 +2,7 @@ public class Department {
     private double targetValue;
     private double achievedTargetValue;
 
-    public Department(double TargetValue, double achievedTargetValue) {
+    public Department(double targetValue, double achievedTargetValue) {
         this.targetValue = targetValue;
         this.achievedTargetValue = achievedTargetValue;
     }
@@ -16,6 +16,6 @@ public class Department {
     }
 
     public boolean reachedTarget() {
-        return (achievedTargetValue >= targetValue);
+        return achievedTargetValue >= targetValue;
     }
 }

@@ -11,18 +11,12 @@ public class Employee {
 
     public double calculateBonus(Department department) {
         if (department.reachedTarget()) {
-            return fixedSalary * 10 / 100;
-        } else {
-            return 0.0;
+            return fixedSalary * 0.10;
         }
+        return 0.0;
     }
 
     public double calculateTotalSalary(Department department) {
-        if (department.reachedTarget()) {
-            double newSalary = fixedSalary + calculateBonus(department);
-            return newSalary;
-        } else {
-            return fixedSalary;
-        }
+        return fixedSalary + calculateBonus(department);
     }
 }
