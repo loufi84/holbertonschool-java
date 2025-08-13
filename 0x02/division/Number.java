@@ -7,7 +7,7 @@ public class Number {
             } catch (Exception e) {
                 System.out.println("It is not possible to divide by zero.");
             } finally {
-                System.out.printf("%d / %d = %d", a, b, res);
+                System.out.printf("%d / %d = %d\n", a, b, res);
             }
         }
     }
