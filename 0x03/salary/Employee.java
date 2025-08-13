@@ -10,7 +10,7 @@ public class Employee {
     }
 
     public double calculateBonus(Department department) {
-        if (department.reachedTarget()) {
+        if (department.reachedTarget() == true) {
             return (fixedSalary * 10) / 100;
         }
         return 0.0;
