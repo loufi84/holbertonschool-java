@@ -3,7 +3,7 @@ import java.util.Locale;
 
 public class Program {
     public static void main(String[] args) {
-        LocalDate.setDefault(Locale.FRANCE);
+        Locale.setDefault(Locale.FRANCE);
         Department engineeringDepartment = new Department(1000, 1100);
         Department documentationDepartment = new Department(1000, 800);
 
