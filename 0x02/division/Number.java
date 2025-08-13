@@ -1,14 +1,12 @@
-public class Program {
-    public static void main(String[] args) {
-        int a, b;
-
-        a = 4;
-        b = 3;
-        TheNumber.todivide(a, b);
-        System.out.println();
-
-        a = 9;
-        b = 0;
-        TheNumber.todivide(a, b);
+public class Number {
+    public static void todivide(int a, int b) {
+        int res = 0;
+        try {
+            res = a / b;
+        } catch (Exception e) {
+            System.out.println("It is not possible to divide by zero.");
+        } finally {
+            System.out.printf("%d / %d = %d", a, b, res);
+        }
     }
 }
