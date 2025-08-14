@@ -1,4 +1,4 @@
-import 0x03.bookstore.exceptions.*;
+import exceptions.*;
 
 public class Book {
     private String title;
