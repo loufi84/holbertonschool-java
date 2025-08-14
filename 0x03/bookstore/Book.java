@@ -1,3 +1,5 @@
+import 0x03.bookstore.exceptions.*;
+
 public class Book {
     private String title;
     private String author;
