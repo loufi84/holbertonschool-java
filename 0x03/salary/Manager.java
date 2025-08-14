@@ -11,4 +11,3 @@ public class Manager extends Employee {
         }
         return 0.0;
     }
-}
