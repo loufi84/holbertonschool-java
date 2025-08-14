@@ -22,7 +22,7 @@ public class Book {
     }
 
     public void setTitle(String title) {
-        if (title.length < 3) {
+        if (title.length() < 3) {
             throw new InvalidBookException("Invalid book title");
         } else {
             this.title = title;
