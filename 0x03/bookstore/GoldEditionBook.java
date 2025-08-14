@@ -6,6 +6,6 @@ public class GoldEditionBook extends Book {
 
     @Override
     public float getPrice() {
-        return price * 0.30f;
+        return this.price * 0.30f;
     }
 }

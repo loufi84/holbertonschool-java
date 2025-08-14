@@ -5,7 +5,7 @@ public class Program {
                     Book book1 = new Book(
                                     "Robinson Crusoe",
                                     "Daniel Defoe",
-                                    56);
+                                    56.0f);
 
                     System.out.printf("Title: %s - Author: %s - Price: %.2f\n",
                                     book1.getTitle(),
@@ -19,7 +19,7 @@ public class Program {
                     GoldEditionBook goldEditionBook1 = new GoldEditionBook(
                                     "Frankenstein",
                                     "Mary Shelley",
-                                    38.30);
+                                    38.30f);
 
                     System.out.printf("Title: %s - Author: %s - Price: %.2f\n",
                                     goldEditionBook1.getTitle(),
@@ -34,7 +34,7 @@ public class Program {
                     GoldEditionBook goldEditionBook2 = new GoldEditionBook(
                                     "Alice’s Adventures in Wonderland",
                                     "Lewis Carroll",
-                                    21.88);
+                                    21.88f);
 
                     System.out.printf("Title: %s - Author: %s - Price: %.2f\n",
                                     goldEditionBook2.getTitle(),
@@ -48,7 +48,7 @@ public class Program {
                     Book book2 = new Book(
                                     "Dracula",
                                     "Bram Stoker",
-                                    15.99);
+                                    15.99f);
 
                     System.out.printf("Title: %s - Author: %s - Price: %.2f\n",
                                     book2.getTitle(),
@@ -62,7 +62,7 @@ public class Program {
                     Book book3 = new Book(
                                     "The Great Gatsby",
                                     "F. Scott Fitzgerald",
-                                    0);
+                                    0f);
 
                     System.out.printf("Title: %s - Author: %s - Price: %.2f\n",
                                     book3.getTitle(),

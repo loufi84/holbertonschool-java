@@ -10,15 +10,15 @@ public class Book {
     }
 
     public String getTitle() {
-        return title;
+        return this.title;
     }
 
     public String getAuthor() {
-        return author;
+        return this.author;
     }
 
     public float getPrice() {
-        return price;
+        return this.price;
     }
 
     public void setTitle(String title) {
